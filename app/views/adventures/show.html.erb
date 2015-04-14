@@ -11,8 +11,8 @@
 </p>
 
 <p>
-  <strong>Picture:</strong>
-  <%= @adventure.picture %>
+ <strong>Picture:</strong>
+ <%= image_tag(@adventure.picture_url, :width =>600) if @adventure.picture.present? %>
 </p>
 
 <p>
