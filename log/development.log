@@ -461,3 +461,917 @@ Processing by AdventuresController#show as HTML
   [1m[35mAdventure Load (2.9ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 4]]
   Rendered adventures/show.html.erb within layouts/application (7.3ms)
 Completed 200 OK in 230ms (Views: 206.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 21:40:18 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (7.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (6.8ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 1230ms (Views: 1184.7ms | ActiveRecord: 12.1ms)
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 33.33.33.1 at 2015-04-14 21:40:20 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 21:40:37 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (3.0ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 195ms (Views: 190.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 21:40:38 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.9ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 176ms (Views: 171.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 21:40:45 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (3.3ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 217ms (Views: 211.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 21:40:46 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (3.4ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 186ms (Views: 179.6ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 21:41:55 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (3.5ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 348ms (Views: 342.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 21:41:55 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-4e1b1cb7f14401c7b46e463d5f0e19646b0b16ef1aa8dce09ba0bdf4004fbc83.css?body=1" for 33.33.33.1 at 2015-04-14 21:41:55 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 21:41:55 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 21:41:55 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 21:41:55 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 21:41:55 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 21:41:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 21:41:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 21:47:47 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (168.1ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (176.2ms)
+Completed 200 OK in 832ms (Views: 661.4ms | ActiveRecord: 168.1ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 21:47:48 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 21:47:48 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 21:47:48 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 21:47:48 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 21:47:48 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 21:47:48 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 21:47:48 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 21:51:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (3.6ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 159ms (Views: 153.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 21:51:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 21:51:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 21:51:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 21:51:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 21:51:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 21:51:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 21:51:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures/new" for 33.33.33.1 at 2015-04-14 21:51:29 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#new as HTML
+  Rendered adventures/_form.html.erb (42.9ms)
+  Rendered adventures/new.html.erb within layouts/application (54.7ms)
+Completed 200 OK in 220ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 21:51:31 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.8ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 148ms (Views: 143.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/adventures/4" for 33.33.33.1 at 2015-04-14 21:55:45 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAdventure Load (5.5ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered adventures/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 195ms (Views: 169.8ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 21:55:48 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.2ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 154ms (Views: 150.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:00:25 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (5.3ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 209ms (Views: 201.3ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:00:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:00:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:00:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:00:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:00:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:00:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:00:26 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures/new" for 33.33.33.1 at 2015-04-14 22:00:41 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#new as HTML
+  Rendered adventures/_form.html.erb (6.7ms)
+  Rendered adventures/new.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 205ms (Views: 202.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/adventures" for 33.33.33.1 at 2015-04-14 22:01:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DzVJrbD/ayoRiR2NQkK3QSPPUlu9g7FRLGO/MAcRpOFOCU0jhp3ImLrWyFqG91LZ8ze3EFZFjzgER0HVs15Q9A==", "adventure"=>{"name"=>"Eggs Benedict", "description"=>"Being poached...", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fbbfc0b49f0 @tempfile=#<Tempfile:/tmp/RackMultipart20150414-5793-t29sre.jpg>, @original_filename="derby_dolls.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"adventure[picture]\"; filename=\"derby_dolls.jpg\"\r\nContent-Type: image/jpeg\r\n">, "visit(1i)"=>"2015", "visit(2i)"=>"4", "visit(3i)"=>"16"}, "commit"=>"Create Adventure"}
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (7.9ms)[0m  [1mINSERT INTO "adventures" ("name", "description", "picture", "visit", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Eggs Benedict"], ["description", "Being poached..."], ["picture", "derby_dolls.jpg"], ["visit", "2015-04-16"], ["created_at", "2015-04-14 22:01:22.836241"], ["updated_at", "2015-04-14 22:01:22.836241"]]
+  [1m[35m (23.1ms)[0m  commit transaction
+Redirected to http://33.33.33.33:3000/adventures/5
+Completed 302 Found in 113ms (ActiveRecord: 31.4ms)
+
+
+Started GET "/adventures/5" for 33.33.33.1 at 2015-04-14 22:01:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAdventure Load (2.3ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered adventures/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 196ms (Views: 189.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:01:27 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (3.9ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 168ms (Views: 162.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/adventures/2" for 33.33.33.1 at 2015-04-14 22:06:21 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdventure Load (6.6ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered adventures/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 163ms (Views: 153.0ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:07:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (6.8ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 229ms (Views: 219.6ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:07:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:07:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:07:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (3.5ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 160ms (Views: 154.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:07:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:07:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:07:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:11:03 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (3.1ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 190ms (Views: 184.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:11:03 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:11:03 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:11:03 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:11:03 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:11:03 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:11:03 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:11:03 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:12:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (3.1ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 221ms (Views: 215.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:12:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:12:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:12:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:12:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:12:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:12:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:12:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures/2" for 33.33.33.1 at 2015-04-14 22:13:18 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mAdventure Load (2.7ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered adventures/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 183ms (Views: 175.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/adventures/2/edit" for 33.33.33.1 at 2015-04-14 22:13:20 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdventure Load (3.0ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered adventures/_form.html.erb (13.5ms)
+  Rendered adventures/edit.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 342ms (Views: 335.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/adventures/2" for 33.33.33.1 at 2015-04-14 22:13:24 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mAdventure Load (4.1ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered adventures/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 187ms (Views: 177.6ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/adventures/2/edit" for 33.33.33.1 at 2015-04-14 22:13:28 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdventure Load (2.9ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered adventures/_form.html.erb (9.0ms)
+  Rendered adventures/edit.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 181ms (Views: 174.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:13:30 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (3.6ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 168ms (Views: 161.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 22:13:34 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (3.1ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 196ms (Views: 187.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 22:13:36 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (3.0ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 153ms (Views: 148.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:13:39 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (2.6ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 160ms (Views: 155.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:13:40 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.3ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 141ms (Views: 137.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/adventures/3" for 33.33.33.1 at 2015-04-14 22:13:55 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdventure Load (3.8ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered adventures/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 151ms (Views: 142.9ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/adventures/3/edit" for 33.33.33.1 at 2015-04-14 22:14:00 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mAdventure Load (2.5ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered adventures/_form.html.erb (8.4ms)
+  Rendered adventures/edit.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 146ms (Views: 138.7ms | ActiveRecord: 2.5ms)
+
+
+Started PATCH "/adventures/3" for 33.33.33.1 at 2015-04-14 22:14:36 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ofJe5UMAfNkoy4rMpkR94GT6ey1BhURt/EzkimPwt6vgzlprdWLfa4OUXxti8Zh4tAKeZqpDegTUaBpv179Dvg==", "adventure"=>{"name"=>"Pigeons", "description"=>"I like pigeons", "picture"=>#<ActionDispatch::Http::UploadedFile:0x00000004769c20 @tempfile=#<Tempfile:/tmp/RackMultipart20150414-5793-zo5l16.png>, @original_filename="Pigeon.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"adventure[picture]\"; filename=\"Pigeon.png\"\r\nContent-Type: image/png\r\n">, "visit(1i)"=>"2015", "visit(2i)"=>"4", "visit(3i)"=>"15"}, "commit"=>"Update Adventure", "id"=>"3"}
+  [1m[36mAdventure Load (8.6ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mAdventure Load (2.8ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSQL (4.3ms)[0m  UPDATE "adventures" SET "picture" = ?, "updated_at" = ? WHERE "adventures"."id" = ?  [["picture", "Pigeon.png"], ["updated_at", "2015-04-14 22:14:36.842424"], ["id", 3]]
+  [1m[36m (23.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://33.33.33.33:3000/adventures/3
+Completed 302 Found in 376ms (ActiveRecord: 39.5ms)
+
+
+Started GET "/adventures/3" for 33.33.33.1 at 2015-04-14 22:14:37 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mAdventure Load (2.4ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered adventures/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 186ms (Views: 179.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 22:14:40 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (2.7ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 142ms (Views: 136.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/adventures/2" for 33.33.33.1 at 2015-04-14 22:14:43 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mAdventure Load (2.9ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered adventures/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 145ms (Views: 138.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/adventures/2/edit" for 33.33.33.1 at 2015-04-14 22:14:45 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdventure Load (3.2ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered adventures/_form.html.erb (6.2ms)
+  Rendered adventures/edit.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 159ms (Views: 149.4ms | ActiveRecord: 3.2ms)
+
+
+Started PATCH "/adventures/2" for 33.33.33.1 at 2015-04-14 22:15:40 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GAOJxelDU5XA7J7FfwFjc6I1DlqDYtHy4Jsc+edgmf9ZP41L3yHwJ2uzSxK7tIbrcs3rEWik75vIv+IcUy9t6g==", "adventure"=>{"name"=>"Segway Adventures", "description"=>"Riding segways", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fbc0a0a5fa0 @tempfile=#<Tempfile:/tmp/RackMultipart20150414-5793-tw5hc4.jpg>, @original_filename="segway.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"adventure[picture]\"; filename=\"segway.jpg\"\r\nContent-Type: image/jpeg\r\n">, "visit(1i)"=>"2015", "visit(2i)"=>"4", "visit(3i)"=>"15"}, "commit"=>"Update Adventure", "id"=>"2"}
+  [1m[35mAdventure Load (6.7ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mAdventure Load (6.9ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mSQL (3.3ms)[0m  [1mUPDATE "adventures" SET "picture" = ?, "updated_at" = ? WHERE "adventures"."id" = ?[0m  [["picture", "segway.jpg"], ["updated_at", "2015-04-14 22:15:40.123881"], ["id", 2]]
+  [1m[35m (22.0ms)[0m  commit transaction
+Redirected to http://33.33.33.33:3000/adventures/2
+Completed 302 Found in 115ms (ActiveRecord: 39.1ms)
+
+
+Started GET "/adventures/2" for 33.33.33.1 at 2015-04-14 22:15:40 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdventure Load (3.2ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered adventures/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 157ms (Views: 151.0ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:15:42 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.9ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 154ms (Views: 149.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:16:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (6.0ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 169ms (Views: 159.1ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:16:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:16:58 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:16:59 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:16:59 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:16:59 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:16:59 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:16:59 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:17:00 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.8ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 144ms (Views: 139.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:01 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:01 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:01 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:17:01 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:01 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:17:01 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:01 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:17:19 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (2.8ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 166ms (Views: 161.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:19 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:19 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:19 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:19 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:17:19 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:17:19 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:20 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:17:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.7ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 201ms (Views: 193.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:17:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:17:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:22 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:17:57 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (2.6ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 157ms (Views: 151.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:17:57 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:17:57 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:57 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:57 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:57 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:57 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:17:57 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:18:11 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (4.1ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 165ms (Views: 158.7ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:12 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:12 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:12 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:18:12 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:12 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:18:12 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:12 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:18:14 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[36mAdventure Load (3.0ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
+  Rendered adventures/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 182ms (Views: 176.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:14 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:14 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:14 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:18:14 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:14 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:18:14 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:18:14 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:19:49 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (5.9ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 166ms (Views: 158.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 22:19:49 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 22:19:49 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 22:19:49 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 22:19:49 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-718e3bb0a96243091b488b4aaacd18575230412717059ec8ece30320c9637332.css?body=1" for 33.33.33.1 at 2015-04-14 22:19:49 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 22:19:49 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 22:19:49 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/adventures/4" for 33.33.33.1 at 2015-04-14 22:19:56 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAdventure Load (3.0ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered adventures/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 147ms (Views: 141.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/adventures" for 33.33.33.1 at 2015-04-14 22:20:00 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (3.6ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 225ms (Views: 218.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/adventures/3" for 33.33.33.1 at 2015-04-14 22:20:02 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdventure Load (3.0ms)[0m  [1mSELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered adventures/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 153ms (Views: 144.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/adventures/2" for 33.33.33.1 at 2015-04-14 22:20:08 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mAdventure Load (2.5ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered adventures/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 151ms (Views: 145.2ms | ActiveRecord: 2.5ms)
