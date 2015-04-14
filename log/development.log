@@ -374,3 +374,90 @@ Processing by AdventuresController#index as HTML
   [1m[36mAdventure Load (65.7ms)[0m  [1mSELECT "adventures".* FROM "adventures"[0m
   Rendered adventures/index.html.erb within layouts/application (86.3ms)
 Completed 200 OK in 297ms (Views: 218.0ms | ActiveRecord: 72.0ms)
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 20:27:01 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.9ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 1136ms (Views: 1094.5ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 20:41:21 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.7ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 988ms (Views: 937.7ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/assets/adventures.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 33.33.33.1 at 2015-04-14 20:41:23 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-4e1b1cb7f14401c7b46e463d5f0e19646b0b16ef1aa8dce09ba0bdf4004fbc83.css?body=1" for 33.33.33.1 at 2015-04-14 20:41:23 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 33.33.33.1 at 2015-04-14 20:41:23 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 33.33.33.1 at 2015-04-14 20:41:23 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 33.33.33.1 at 2015-04-14 20:41:23 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 33.33.33.1 at 2015-04-14 20:41:23 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/adventures.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 33.33.33.1 at 2015-04-14 20:41:23 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 33.33.33.1 at 2015-04-14 20:41:23 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 33.33.33.1 at 2015-04-14 20:42:04 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AdventuresController#index as HTML
+  [1m[35mAdventure Load (2.3ms)[0m  SELECT "adventures".* FROM "adventures"
+  Rendered adventures/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 1013ms (Views: 972.3ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/adventures/new" for 33.33.33.1 at 2015-04-14 20:42:07 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#new as HTML
+  Rendered adventures/_form.html.erb (76.6ms)
+  Rendered adventures/new.html.erb within layouts/application (105.9ms)
+Completed 200 OK in 310ms (Views: 307.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/adventures" for 33.33.33.1 at 2015-04-14 20:43:31 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pjC0aM9uvInN/Ap6f91TXCLx0/0rDQtd0O+Wvv/sbFjnDLDm+QwfO2aj3627aLbE8gk2tsDLNTT4y2hbS6OYTQ==", "adventure"=>{"name"=>"The Egg's Adventure", "description"=>"Trying not to roll off the counter.", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fcb1e0d6c68 @tempfile=#<Tempfile:/tmp/RackMultipart20150414-5459-1lz9scq.jpg>, @original_filename="eggy.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"adventure[picture]\"; filename=\"eggy.jpg\"\r\nContent-Type: image/jpeg\r\n">, "visit(1i)"=>"2015", "visit(2i)"=>"4", "visit(3i)"=>"15"}, "commit"=>"Create Adventure"}
+  [1m[36m (2.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (16.4ms)[0m  INSERT INTO "adventures" ("name", "description", "picture", "visit", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "The Egg's Adventure"], ["description", "Trying not to roll off the counter."], ["picture", "eggy.jpg"], ["visit", "2015-04-15"], ["created_at", "2015-04-14 20:43:32.115862"], ["updated_at", "2015-04-14 20:43:32.115862"]]
+  [1m[36m (21.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://33.33.33.33:3000/adventures/4
+Completed 302 Found in 187ms (ActiveRecord: 40.0ms)
+
+
+Started GET "/adventures/4" for 33.33.33.1 at 2015-04-14 20:43:32 +0000
+Cannot render console from 33.33.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdventuresController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mAdventure Load (2.9ms)[0m  SELECT  "adventures".* FROM "adventures" WHERE "adventures"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered adventures/show.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 230ms (Views: 206.4ms | ActiveRecord: 2.9ms)
